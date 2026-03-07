@@ -1,4 +1,4 @@
-# BCOG_Final_project 
+# bcogfinalproject
 
 ## description of project 
 
