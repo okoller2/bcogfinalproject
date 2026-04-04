@@ -28,3 +28,11 @@ Pihu Chawra (pchawra2)
 
 Pihu Chawra (pchawra2) 
 
+
+updated changes: 
+Material we will provide to users is all the letters of the alphabet as submission options as well as the amount of letters that are in the glyph
+The logic of our program is that we have letters that all fit within a certain boundary to form a combined symbol. The user will enter a letter, and the computer will then assess if that response is identical to one of the letters in the randomly chosen word and keep it to show the user that while the rest of the word may be incorrect, a single letter is correct.
+Someone would use this program for enjoyment or to continually train their brain 
+Datafile would be a python file with imported json file (collection of words) and imported text file (instructions) 
+To test the entire functionality of the program, the user would purposely test words that they know have one letter correct to make sure that the computer recognizes single letters and also recognizes those that are incorrect
+
