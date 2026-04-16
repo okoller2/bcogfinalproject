@@ -1,4 +1,4 @@
-# bcogfinalproject
+# glyph-game
 
 ## description of project 
 
@@ -36,3 +36,4 @@ Someone would use this program for enjoyment or to continually train their brain
 Datafile would be a python file with imported json file (collection of words) and imported text file (instructions) 
 To test the entire functionality of the program, the user would purposely test words that they know have one letter correct to make sure that the computer recognizes single letters and also recognizes those that are incorrect
 
+##
