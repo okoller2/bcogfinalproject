@@ -37,6 +37,7 @@ To test the entire functionality of the program, the user would purposely test w
 ## updated changes project check-in 3:
 We reordered some of the functions like def normalize_segment in order to reduce the number of nameerrors and have the code run in a chronological order that made sense. We have also been renaming some of our functions, so below I have an updated version of our main functions for clarity:
 
+Reordered functions: 
 def _normalize_segment(coords): 
 this makes a segment so that (a,b) -> (c,d) and any other letter combination appears the same size based on standard coordinates established earlier in the code (width=600, height=600)
 def get_glyph(word):
@@ -49,6 +50,19 @@ class GlyphGame:
 this class actually dictates the color of the different buttons and titles that will appear as the user makes choices. 
 def _draw_glyphs(self): 
 this automatically makes the game draw letters within the canvas and also ensures that if the user wants to start a new trial of the game, the previous trial doesn't stay 
+
+Measures of Success: As of right now, the game isn't fully complete, but we are at a checkpoint of progress, so our way for graders to know our code is being executed properly by seeing a small window pop-up with a random letter appear on the screen. The letter should be a different one each time that the grader runs the code. It is worth noting that while we have written code related to buttons and interactions, we are still working out the kinks and thus we made some of those comments instead to avoid interfering with the code's ability to run properly as a prototype. 
+
+Overall Methods:
+
+Created custom/stylized lettering by making an invisible box wherein letters are confined and drawn based on a set of coordinates that we calculated
+Created stylized color palette for all text that appears for the user
+Created an immense word bank of 5 letter words
+Want users to be able to input letters and see their guessed letters register on the screen
+Want users to enter their guesses and recieve a notification indicating what letters were guessed correctly (which will remain on the screen) and what letters were guessed incorrectly (which will disappear)
+Want users to see when they've guessed the entire word
+Created an end result where the winner is placed back at the home page and a completely new and random word can be utilized for the next trial/round
+
 
 
 
