@@ -34,4 +34,21 @@ Someone would use this program for enjoyment or to continually train their brain
 Datafile would be a python file with imported json file (collection of words) and imported text file (instructions) 
 To test the entire functionality of the program, the user would purposely test words that they know have one letter correct to make sure that the computer recognizes single letters and also recognizes those that are incorrect
 
-##
+## updated changes project check-in 3:
+We reordered some of the functions like def normalize_segment in order to reduce the number of nameerrors and have the code run in a chronological order that made sense. We have also been renaming some of our functions, so below I have an updated version of our main functions for clarity:
+
+def _normalize_segment(coords): 
+this makes a segment so that (a,b) -> (c,d) and any other letter combination appears the same size based on standard coordinates established earlier in the code (width=600, height=600)
+def get_glyph(word):
+this is the same as the function we previously called get_word(), except it is retrieving uniquely shaped letters that we designed based on coordinates within the hypothetical letter box 
+def draw_letter(canvas, letter, x, y, size):
+this function creates the letter on the gui 
+def _pick_daily_word(self): 
+this function ensures users get a random and non repeating word every time
+class GlyphGame:
+this class actually dictates the color of the different buttons and titles that will appear as the user makes choices. 
+def _draw_glyphs(self): 
+this automatically makes the game draw letters within the canvas and also ensures that if the user wants to start a new trial of the game, the previous trial doesn't stay 
+
+
+
